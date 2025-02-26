@@ -1,11 +1,12 @@
 {
   "name": "applitools-playwright",
+  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "test": "npx playwright test -c playwright.config.ts --project test"
   },
   "devDependencies": {
-    "@applitools/eyes-playwright": "1.36.1",
+    "@applitools/eyes-playwright": "1.36.2",
     "@playwright/test": "^1.50.1"
   }
 }
